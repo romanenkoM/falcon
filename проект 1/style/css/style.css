@@ -488,3 +488,41 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.money {
+  background-color: #eff5f9;
+}
+
+.money__title {
+  padding: 90px 0px 40px 0px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.money__subtitle {
+  padding: 0px 0px 40px 0px;
+  font-size: 24px;
+  font-family: Regular;
+  text-align: center;
+}
+
+.money__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+}
+
+.money__company {
+  margin: 20px -15px;
+}
+
+.money__item {
+  padding: 0px 15px;
+}
+/*# sourceMappingURL=style.css.map */
