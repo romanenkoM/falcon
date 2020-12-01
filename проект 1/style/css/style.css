@@ -513,16 +513,104 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: normal;
-      -ms-flex-pack: normal;
-          justify-content: normal;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 0px 90px 0px;
 }
 
 .money__company {
-  margin: 20px -15px;
+  height: 180px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 0px 30px 0px;
 }
 
-.money__item {
-  padding: 0px 15px;
+.protection__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0px 0px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.protection__columns {
+  padding: 0px 80px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.protection__picture {
+  padding: 0px 20px 0px 0px;
+}
+
+.protection__title {
+  padding: 0px 0px 18px 0px;
+  font-size: 21px;
+  font-family: Regular;
+  font-weight: bold;
+}
+
+.protection__text {
+  font-family: Regular;
+  font-size: 18px;
+}
+
+.protection__block_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 130px 0px 40px 0px;
+}
+
+.protection__logo {
+  padding: 0px 20px 0px 0px;
+}
+
+.protection__text_1 {
+  font-size: 36px;
+  font-family: Regular;
+  font-weight: bold;
+}
+
+.protection__block_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 0px 60px 0px;
+}
+
+.protection__item {
+  padding: 0px 70px 0px 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 219px;
+          flex: 0 0 219px;
+}
+
+.protection__text_2 {
+  padding: 20px 0px 0px 0px;
+}
+
+.protection__button {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 0px 150px 0px;
 }
 /*# sourceMappingURL=style.css.map */
