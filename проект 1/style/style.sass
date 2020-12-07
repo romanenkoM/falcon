@@ -423,16 +423,18 @@
         
        
 .protection
-    
+    padding: 160px 0
     &__content
+        display: flex
+        flex-direction: column
+        justify-content: center
     &__block
        display: flex
-       padding: 100px 0px 0px 0px 
-       justify-content: space-between
+       justify-content: space-around
        
     &__columns
-        padding: 0px 80px 0px 0px 
         display: flex
+        flex:  0 0 25.33%
         
         
         
@@ -445,6 +447,7 @@
         font-size: 21px
         font-family: Regular
         font-weight: bold
+        
 
     &__text    
         font-family: Regular
@@ -462,7 +465,7 @@
     &__block_2
         display: flex
         text-align: center
-        justify-content: space-between
+        justify-content: space-around
         padding: 0px 0px 60px 0px 
     &__item  
         padding: 0px 70px 0px 0px 
@@ -471,6 +474,7 @@
     &__text_2  
         padding: 20px 0px 0px 0px       
     &__button
+        display: block
         height: 70px 
         width: 300px  
         border: 1px solid #ff9d08
@@ -480,15 +484,22 @@
         font-size: 16px
         font-family: Regular
         color: #fff
-        margin: 0px 0px 160px 0px 
+        align-self: center
+        box-shadow: 10px 10px 10px rgba(254,200,122,0.8)
+        &:active
+            background: darken(#ffd121, 10% )
        
 .footer 
-    background-color: #7a7f88  
-    height: 80px   
+    background-color: #7a7f88
+    padding: 40px 0
+    &__content
+        display: flex
+        align-content: center
+        justify-content: center 
+
     &__text
         font-size: 12px     
         font-family: Regular
         color: #ffff
-        align-items: center
-        padding: 40px 0px 0px 44% 
+        text-align: center
         
