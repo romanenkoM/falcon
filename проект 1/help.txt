@@ -1,0 +1,5 @@
+cd путь к папке 
+git status
+git add . 
+git commit -m "что изменил "
+git push
