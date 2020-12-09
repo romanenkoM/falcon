@@ -226,13 +226,13 @@
 
 .statistic {
   background: url("../../img/fonts2.png"), #b6c4d8;
+  padding: 0px 0px 70px 0px;
 }
 
 .statistic__content {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,6 +317,7 @@
 
 .return {
   background-color: #fff;
+  padding: 90px 0px 0px 0px;
 }
 
 .return__form {
@@ -424,13 +425,13 @@
 }
 
 .help__item {
-  padding: 20px 0px 15px 15px;
+  padding: 20px 100px 15px 15px;
   border-left: 3px solid #fff;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 168px;
-          flex: 0 0 168px;
-  margin: 0 117px 25px 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
   font-size: 18px;
+  margin: 25px 0px 0px 0px;
 }
 
 .reviews__card {
@@ -613,10 +614,11 @@
 }
 
 .protection__item {
-  padding: 0px 70px 0px 0px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 219px;
           flex: 0 0 219px;
+  margin-right: -35px;
+  padding-right: 35px;
 }
 
 .protection__text_2 {
@@ -667,4 +669,55 @@
   font-family: Regular;
   color: #ffff;
   text-align: center;
+}
+
+.container {
+  max-width: 90%;
+}
+
+.header__content__title {
+  max-width: 90%;
+}
+
+.statistic {
+  background-size: cover;
+}
+
+.statistic__content {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.statistic__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+.why__block {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.why__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  margin: 0px 0px 40px 0px;
+}
+
+.form {
+  margin-left: 50px;
+}
+
+.help__options {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.help__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
 }
