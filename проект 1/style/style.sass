@@ -347,14 +347,14 @@
    
     &__card
         max-width: 74% 
-       
+        text-align: center
     &__title
         text-align: center 
         font-size: 36px
         font-weight: bold
         padding: 110px 0px 60px 0px   
     &__photo
-        padding: 0px 0px 20px 45%
+        
     &__name
         text-align: center
         font-size: 24px
@@ -458,6 +458,7 @@
     &__block_1
         display: flex
         padding: 130px 0px 40px 0px 
+        justify-content: center
         
     &__logo
         padding: 0px 20px 0px 0px 
@@ -514,43 +515,76 @@
 
 @media screen and ( max-width:1100px )
     
-.container 
-    max-width: 90%
+    .container 
+        max-width: 90%
 
 
-.header
-    &__content
+    .header
+        &__content
 
-        &__title   
-            max-width: 90%     
-
-
-.statistic
-    background-size: cover
-    &__content
-        flex-wrap: wrap
-    &__item
-        flex: 0 0 40%
-
-.why
-    &__block
-        flex-wrap: wrap    
-
-    &__item
-        flex: 0 0 40%
-        margin: 0px 0px 40px 0px 
-
-.form
-    margin-left: 50px         
+            &__title   
+                max-width: 90%     
 
 
-.help
-    &__options
-        justify-content: center
-    &__item
-        flex: 0 0 40%
+    .statistic
+        background-size: cover
+        &__content
+            flex-wrap: wrap
+        &__item
+            flex: 0 0 40%
+
+    .why
+        &__block
+            flex-wrap: wrap    
+
+        &__item
+            flex: 0 0 40%
+            margin: 0px 0px 40px 0px 
+
+    .form
+        margin-left: 50px         
+
+
+    .help
+        &__options
+            justify-content: center
+        &__item
+            flex: 0 0 40%
 
     
 @media screen and ( max-width: 768px  )
     
     .header
+        
+        &__content
+            
+            
+            &__slash
+                display: none
+
+            &__block
+                flex-direction: column
+
+            &__logo
+                width: 90% 
+
+            &__title
+                font-size: 25px 
+                text-align: center
+    .money
+
+        &__block
+            justify-content: space-evenly
+
+    .protection
+
+        &__block_2
+            flex-wrap: wrap
+        &__item
+            flex: 0 0 40% 
+            margin: 0px 0px 20px 0px    
+
+
+@media screen and ( max-width:600px  )
+                
+            
