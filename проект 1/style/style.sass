@@ -103,7 +103,7 @@
     &__content 
         display: flex
         justify-content: space-between
-
+                                             
         &__block 
             display: flex
 
@@ -386,7 +386,7 @@
     &-slide 
         display: flex
         justify-content: center
-
+   
 
 
 
@@ -586,5 +586,124 @@
 
 
 @media screen and ( max-width:600px  )
-                
+
+    .return
+       
+        &__block
+            flex-direction: column
+        &__form  
+            width: 60%
+            margin-left: 18%
+            &::before
+                display: none
+    .help
+
+        &__options
+            justify-content: center
+           
+        
+        &__item
+            flex: 0 0 50%
+    .money
+
+        &__subtitle  
+            font-size: 26px    
+
+    .protection  
+
+        &__block
+            flex-wrap: wrap
+
+
+@media screen and ( max-width:480px  )
+
+    .header
+        
+        
+        &__content
+            flex-direction: column
+            text-align: center
+            margin: 0px 0px 0px 34%
+            &__text
+                font-size: 22px
+            &__phone
+                font-size: 20px 
+            &__link
+                font-size: 23px
+            &__block
+                width: 50%
+                margin: 0px 0px 15px 0px 
+            &__mainunit
+                flex-direction: column
+            &__information
+                text-align: center
+                justify-content: center
+            &__title
+                margin: 0px 0px 0px 20px 
+            &__subtitle
+                padding: 10px 0px 10px 0px 
+            &__list
+                padding: 0px 0px 0px 0px 
+
+        .form
+            width: 67%   
+            margin: 0px 0px 0px 16%  
+            &::before
+                display: none
+
+
+    .statistic
+
+        &__content
+            flex-direction: column
+    .why
+
+        &__block
+            flex-direction: column
+
+    .help
+        &__options
+            flex-wrap: wrap
+            
+        
+        &__item
+            flex: 0 0 60%
+
+    .protection   
+        
+
+        &__block
+            flex-direction: column 
+            flex-wrap: wrap
+            
+        &__columns
+            margin: 0px 0px 20px 0px 
+        &__block_1
+            flex-direction: column
+            text-align: center
+        &__logo
+            padding: 0    
+        &__block_2
+            flex-direction: column
+
+@media screen and ( max-width:320px  )
+
+    .header
+
+
+        .form
+            width: 100%
+            margin: 0px 
+    .return
+        &__form  
+            width: 80%
+            margin-left: 8%
+
+    .help
+        &__options
+            flex-wrap: wrap
+            
+        
+        &__item
+            flex: 0 0 90%
             
